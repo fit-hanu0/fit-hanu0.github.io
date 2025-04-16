@@ -1,0 +1,97 @@
+site_name: SV-FITHANU
+site_description: Kho tài liệu học tập cho sinh viên HANU FIT
+site_author: duykhanh471
+repo_url: https://github.com/fit-hanu0/fit-hanu0.github.io
+repo_name: Đóng góp cho trang
+
+nav:
+  - 'Trang chủ': index.md
+  - 'Danh sách môn học': mon-hoc.md  
+  - 'Học kỳ 1 - Năm 2':
+    - 'Toán cao cấp': 'HK1_N2/61fit2cal.md'
+    - 'Toán rối rạc': 'HK1_N2/61fit2dma.md'
+    - 'Nguyên lý máy tính': 'HK1_N2/61fit2pco.md'
+    - 'Nguyên lý hệ điều hành': 'HK1_N2/61fit2pop.md'
+    - 'Lập trình 1': 'HK1_N2/61fit2pr1.md'
+  - 'Học kỳ 2 - Năm 2':
+    - 'Mạng máy tính': 'HK2_N2/61fit2cne.md'
+    - 'Cấu trúc dữ liệu và giải thuật': 'HK2_N2/61fit2dsa.md'
+    - 'Hệ thống nhúng': 'HK2_N2/61fit2esy.md'
+    - 'Nhập môn an toàn thông tin': 'HK2_N2/61fit2iis.md'
+    - 'Lập trình 2': 'HK2_N2/61fit2pr2.md'
+    - 'Quản lý dự án': 'HK2_N2/61fit2prm.md'
+    - 'Xác suất thống kê': 'HK2_N2/61fit2pst.md'
+  - 'Học kỳ 1 - Năm 3':
+    - 'Trí tuệ nhân tạo': 'HK1_N3/61fit2ain.md'
+    - 'Đồ hóa máy tính': 'HK1_N3/61fit3cgr.md'
+    - 'Cơ sở dữ liệu': 'HK1_N3/61fit3dbs.md'
+    - 'Kinh doanh điện tử': 'HK1_N3/61fit3ebu.md'
+    - 'Thiết kế hệ thống thông tin': 'HK1_N3/61fit3isd.md'
+    - 'Đa phương tiện': 'HK1_N3/61fit3mul.md'
+    - 'Quản trị mạng': 'HK1_N3/61fit3nad.md'
+    - 'Lập trình mạng': 'HK1_N3/61fit3npr.md'
+    - 'Phân tích thiết kế hệ thống': 'HK1_N3/61fit3sad.md'
+    - 'Công nghệ phần mềm 1': 'HK1_N3/61fit3se1.md'
+    - 'Chuyên đề 1': 'HK1_N3/61fit3ss1.md'
+    - 'Lập trình web': 'HK1_N3/61fit3wpr.md'
+  - 'Học kỳ 2 - Năm 3':
+    - 'Khai phá dữ liệu lớn': 'HK2_N3/61fit3bdm.md'
+    - 'Hệ quản trị cơ sở dữ liệu': 'HK2_N3/61fit3dba.md'
+    - 'Tương tác người máy': 'HK2_N3/61fit3hci.md'
+    - 'Internet và dịch vụ web': 'HK2_N3/61fit3iws.md'
+    - 'Lập trình cho thiết bị di động': 'HK2_N3/61fit3mpr.md'
+    - 'An ninh mạng': 'HK2_N3/61fit3nse.md'
+    - 'Phân tích yêu cầu phần mềm': 'HK2_N3/61fit3req.md'
+    - 'Công nghệ phần mềm 2': 'HK2_N3/61fit3se2.md'
+    - 'Đảm bảo chất lượng phần mềm': 'HK2_N3/61fit3sqa.md'
+    - 'Chuyên đề 2': 'HK2_N3/61fit3ss2.md'
+    - 'Đánh giá hiệu năng mạng': 'HK2_N3/61fit4npe.md'
+    - 'Quản lý dự án phần mềm': 'HK2_N3/61fit4spm.md'
+  - 'Học kỳ 1 - Năm 4':
+    - 'Hệ thống phân tán': 'HK1_N4/61fit3dsy.md'
+    - 'Phát triển phần mềm java': 'HK1_N4/61fit3jsd.md'
+    - 'Hệ thống thông tin doanh nghiệp': 'HK1_N4/61fit4eis.md'
+    - 'Xử lý ảnh và nhận dạng': 'HK1_N4/61fit4ipr.md'
+    - 'Học máy và ứng dụng': 'HK1_N4/61fit4mla.md'
+    - 'Mạng không dây và ứng dụng': 'HK1_N4/61fit4wna.md'
+  - 'Học kỳ 2 - Năm 4':
+    - 'Các chủ đề mới': 'HK2_N4/61fit4ati.md'
+    - 'Khóa luận tốt nghiệp': 'HK2_N4/61fit4grp.md'
+    - 'Thực tập tốt nghiệp': 'HK2_N4/61fit4int.md'
+    - 'Đạo đức nghề nghiệp': 'HK2_N4/61fit4pit.md'
+
+theme:
+  palette:
+    # Palette toggle for light mode
+    media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: white
+    accent: grey
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: grey
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  logo: asset/logo.svg
+  favicon: asset/logo.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+  
+plugins:
+  - search
+  - open-in-new-tab
+  
+extra:
+  generator: false
