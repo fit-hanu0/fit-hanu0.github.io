@@ -1,5 +1,7 @@
 # Danh sách môn học
 
+Các đường dẫn dưới đây sẽ dẫn bạn đến trang Github của môn tương ứng.
+
 ### Học kì 1 - Năm 2
 1.  [61FIT2CAL](https://github.com/fit-hanu0/61fit2cal) - Toán Cao Cấp
 2.  [61FIT2DMA](https://github.com/fit-hanu0/61fit2dma) - Toán Rối Rạc

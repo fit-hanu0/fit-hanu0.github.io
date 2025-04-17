@@ -1,4 +1,4 @@
-site_name: SV-FITHANU
+site_name: Tài liệu FIT-HANU
 site_description: Kho tài liệu học tập cho sinh viên HANU FIT
 site_author: duykhanh471
 repo_url: https://github.com/fit-hanu0/fit-hanu0.github.io
@@ -63,23 +63,23 @@ nav:
 theme:
   palette:
     # Palette toggle for light mode
-    media: "(prefers-color-scheme: light)"
-    scheme: default
-    primary: white
-    accent: grey
-    toggle:
-      icon: material/brightness-7
-      name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
     # Palette toggle for dark mode
-    media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: black
-    accent: grey
-    toggle:
-      icon: material/brightness-4
-      name: Switch to light mode
-  logo: asset/logo.svg
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: asset/logo.png
   favicon: asset/logo.png
   features:
     - navigation.instant
